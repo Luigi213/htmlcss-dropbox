@@ -25,6 +25,53 @@ button{
     cursor: pointer;
 }
 
+
+/* utily margin section */
+
+.grey{
+    color:lightgray;
+}
+
+.margin-bottom-8{
+    margin-bottom: 8px ;
+}
+
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+
+.margin-bottom-35{
+    margin-bottom: 35px;
+}
+
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+#margin-bottom-100{
+    margin-bottom: 100px;
+}
+
+#margin-bottom-120{
+    margin-bottom: 120px;
+}
+
+#margin-bottom-150{
+    margin-bottom: 150px;
+}
+
+.btn-special{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding:10px 0 ;
+}
+
 /* header */
 
 .row-header{
@@ -117,47 +164,7 @@ h1{
     width: 85%;
 }
 
-/* utily second section */
 
-.grey{
-    color:lightgray;
-}
-
-.margin-bottom-8{
-    margin-bottom: 8px ;
-}
-
-.margin-bottom-40{
-    margin-bottom: 40px;
-}
-
-.margin-bottom-35{
-    margin-bottom: 35px;
-}
-
-.margin-bottom-15{
-    margin-bottom: 15px;
-}
-
-.margin-bottom-30{
-    margin-bottom: 30px;
-}
-
-#margin-bottom-100{
-    margin-bottom: 100px;
-}
-
-#margin-bottom-120{
-    margin-bottom: 120px;
-}
-
-.btn-special{
-    background-color: rgba(0,97,255,255);
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    padding:10px 0 ;
-}
 
 
 /* main second section */
@@ -313,3 +320,40 @@ li i{
     font-size: 13px;
     padding:7px;
 }
+
+/* utily fort the fith section */
+
+.margin-right{
+    margin-right: 40px;
+}
+
+.font-size-special{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+/* start the fith section */
+
+.col-main-flex{
+    width: 100%;
+    display: flex;
+}
+
+.step{
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.step img{
+    height: 200px;
+}
+
+/* start the sixth section */
+
+.col-big-title{
+    width: 60%;
+}
+
+
