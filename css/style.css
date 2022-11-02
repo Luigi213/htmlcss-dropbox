@@ -216,7 +216,7 @@ label{
     flex-direction: column;
 }
 
-h3{
+.col-content h3{
     padding-top: 20px;
 }
 
@@ -511,3 +511,41 @@ li i{
 }
 
 /* start footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.row-footer{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.row-footer hr{
+    width: 10%;
+}
+
+.col-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.unlist{
+    width: calc(65% / 5);
+    margin: 70px 0;
+}
+
+.unlist h3{
+    margin-bottom: 25px;
+}
+
+.unlist ul{
+    list-style-type: none;
+    line-height: 27px;
+}
+
+.col-sm-logo{
+    color: #b3b2b2;
+    padding-bottom: 40px;
+}
