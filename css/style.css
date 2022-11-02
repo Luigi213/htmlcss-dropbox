@@ -157,7 +157,7 @@ h1{
 .row-main{
     width: 55%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .col-main{
@@ -238,4 +238,41 @@ h3{
 
 li i{
     padding-right: 3px;
+}
+
+/* main third section */
+
+.col-main-2{
+    border: 1px solid rgba(231,231,232,255);
+}
+
+.col-sm-title-2{
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.col-content-2{
+    border: 1px solid rgba(231,231,232,255);
+    border-top: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-left{
+    width: 60%;
+}
+
+.content-right{
+    width: 30%;
+}
+
+.content-right .btn-special-2{
+    width: 80%;
+    background-color: rgba(0,97,255,255);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding:10px 0 ;
+    margin-top: 25px ;
+    margin-left: 50px;
 }
