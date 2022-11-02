@@ -504,6 +504,12 @@ li i{
     padding: 0 30px;
 }
 
+.col-title-answer hr{
+    border: none;
+    height: 0.5px;
+    background-color: #b3b2b2;
+}
+
 /* start footer */
 
 footer{
@@ -518,6 +524,9 @@ footer{
 
 .row-footer hr{
     width: 10%;
+    border: none;
+    height: 0.5px;
+    background-color: #b3b2b2;
 }
 
 .col-footer{
