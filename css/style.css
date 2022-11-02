@@ -11,7 +11,7 @@ body{
 /* utily */
 
 .btn{
-    background-color: rgba(0,97,255,255);
+    background-color: #0061ff;
     padding: 7px 13px;
     color: white;
 }
@@ -65,7 +65,7 @@ button{
 }
 
 .btn-special{
-    background-color: rgba(0,97,255,255);
+    background-color: #0061ff;
     color: white;
     text-align: center;
     font-size: 12px;
@@ -109,7 +109,7 @@ li a{
 
 .container-main-jumbo{
     padding-top: 100px;
-    background-color: rgba(180,208,231,255);
+    background-color: #b4d0e7;
     margin-bottom: 120px;
 }
 
@@ -129,7 +129,6 @@ li a{
 h1{
     color: black;
     font-size: 65px;
-    font-weight: 10000;
 }
 .col-main-pagraph-image{
     position: relative;
@@ -164,9 +163,6 @@ h1{
     width: 85%;
 }
 
-
-
-
 /* main second section */
 
 .row-main{
@@ -200,11 +196,11 @@ label{
 
 .col-30{
     width: 30%;
-    border: 1px solid rgba(231,231,232,255);
+    border: 1px solid #dcdcde;
 }
 
 .col-sm-title{
-    border-bottom: 1px solid rgba(231,231,232,255);
+    border-bottom: 1px solid #dcdcde;
     text-align: center;
     padding: 7px 10px;
 }
@@ -258,7 +254,7 @@ li i{
 /* main third section */
 
 .col-main-2{
-    border: 1px solid rgba(231,231,232,255);
+    border: 1px solid #dcdcde;
 }
 
 .col-sm-title-2{
@@ -267,7 +263,7 @@ li i{
 }
 
 .col-content-2{
-    border: 1px solid rgba(231,231,232,255);
+    border: 1px solid #dcdcde;
     border-top: transparent;
     display: flex;
     justify-content: space-around;
@@ -283,7 +279,7 @@ li i{
 
 .content-right .btn-special-2{
     width: 80%;
-    background-color: rgba(0,97,255,255);
+    background-color: #0061ff;
     color: white;
     text-align: center;
     font-size: 12px;
