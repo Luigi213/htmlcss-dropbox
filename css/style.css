@@ -8,6 +8,27 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* utily */
+
+.btn{
+    background-color: rgba(0,97,255,255);
+    padding: 7px 13px;
+    color: white;
+}
+
+.font-size{
+    font-size: 12px;
+}
+
+#font-size{
+    font-size: 12px;
+}
+
+button{
+    all:unset;
+    cursor: pointer;
+}
+
 /* header */
 
 .row-header{
@@ -18,13 +39,14 @@ body{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 1;
 }
 
 .col-header-left, .col-header-right{
     width: 26%;
 }
 
-ul{
+.topbar-left ul, .topbar-right ul{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
@@ -34,40 +56,31 @@ li img{
     width: 100px;
 }
 
-a{
+li a{
     text-decoration: none;
     color: black;
     font-size: 12px;
 }
 
-/* utily */
-
-.btn{
-    background-color: rgba(0,97,255,255);
-    padding: 7px 13px;
-    color: white;
-    font-size: 12px;
-}
-
-button{
-    all:unset;
-    cursor: pointer;
-}
-
-/* main */
+/* main first section*/
 
 .container-main-jumbo{
     padding-top: 100px;
     background-color: rgba(180,208,231,255);
+    margin-bottom: 120px;
 }
 
 .row-main-jumbo{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
-.col-main-jumbo{
+.col-main-title-jumbo{
     margin-bottom: 40px;
+}
+
+.col-title-jumbo{
+    width: 95%;
 }
 
 h1{
@@ -82,7 +95,7 @@ h1{
 }
 
 .col-pagraph-jumbo{
-    width: 30%;
+    width: 28%;
     font-size: 13px;
 }
 
@@ -91,7 +104,7 @@ h1{
 }
 
 .col-pagraph-jumbo i{
-    padding-bottom: 10px;
+    padding-bottom: 17px;
 }
 
 .padding-bottom{
@@ -99,14 +112,134 @@ h1{
 }
 
 .col-image-jumbo{
-    width: 70%;
+    width: 72%;
     position: absolute;
     right: 0;
 }
 
 .col-image-jumbo img{
-    width: 93%;
+    width: 85%;
+}
+
+/* utily second section */
+
+.grey{
+    color:lightgray;
+}
+
+.margin-bottom-8{
+    margin-bottom: 8px ;
+}
+
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+
+.margin-bottom-35{
+    margin-bottom: 35px;
+}
+
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.btn-special{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding:10px 0 ;
 }
 
 
+/* main second section */
 
+.row-main{
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.col-main{
+    margin-bottom: 35px;
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.billing{
+    vertical-align: middle;
+}
+
+label{
+    padding-right: 40px;
+}
+
+.col-main-table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-30{
+    width: 30%;
+    border: 1px solid rgba(231,231,232,255);
+}
+
+.col-sm-title{
+    border-bottom: 1px solid rgba(231,231,232,255);
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.col-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+.mini-container{
+    width: 100%;
+    display: flex;
+}
+
+.icons{
+    width: 8%;
+}
+
+.text{
+    width: 90%;
+}
+
+.underline{
+    display: flex;
+}
+
+.sm-underline{
+    padding-right: 3px;
+    padding-bottom: 30px ;
+    border-bottom: 1px solid lightgrey;
+}
+
+.underline a{
+    color: blue;
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+li i{
+    padding-right: 3px;
+}
