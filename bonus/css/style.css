@@ -25,6 +25,47 @@ button{
     cursor: pointer;
 }
 
+/* bonus */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #ccc;
+}
+
+.hover a:hover{
+   opacity: 0.8;
+}
+
+.hover button:hover{
+    opacity: 0.8;
+}
+
+.accordion {
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.accordion:hover {
+    background-color: #ccc;
+}
+
+
 /* utily margin section */
 
 .grey{
@@ -495,7 +536,7 @@ li i{
     align-items: center;
 }
 
-.answer p{
+.answer .font-size-special{
     padding: 30px 0;     
 }
 
