@@ -51,12 +51,12 @@ button{
     margin-bottom: 30px;
 }
 
-#margin-bottom-100{
-    margin-bottom: 100px;
-}
-
 .margin-bottom-120{
     margin-bottom: 120px;
+}
+
+#margin-bottom-100{
+    margin-bottom: 100px;
 }
 
 #margin-bottom-150{
@@ -340,8 +340,8 @@ li i{
     flex-direction: column;
 }
 
-.step img{
-    height: 200px;
+.step img, .column img{
+    width: 200px;
 }
 
 /* start the sixth section */
