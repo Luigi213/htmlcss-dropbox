@@ -353,13 +353,13 @@ li i{
 /* start the seven section */
 
 .row-logo{
-    width: 100%;
+    width: 100vw;
     display: flex;
 }
 
 .col-square-logo-left, .col-square-logo-mid, .col-square-logo-right {
     width: calc(100% / 3);
-    height: 450px;
+    height: 60vh;
 }
 
 .col-square-logo-mid{
@@ -459,7 +459,7 @@ li i{
 .col-text{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }
