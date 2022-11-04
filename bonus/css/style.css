@@ -394,7 +394,7 @@ li i{
 /* start the seven section */
 
 .row-logo{
-    width: 100vw;
+    width: 100%;
     display: flex;
 }
 
